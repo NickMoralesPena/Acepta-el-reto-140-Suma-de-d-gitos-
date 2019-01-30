@@ -16,8 +16,7 @@ public class AceptaElReto124SumaDeDígitos {
     /**
      * @param args the command line arguments
      */
-
-  public static char numerico(char numero) {
+    public static char numerico(char numero) {
 
         char valor = 0;
 
@@ -69,12 +68,9 @@ public class AceptaElReto124SumaDeDígitos {
 
     public static void main(String[] args) {
 
-       Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
         boolean fin = false;
-
-
-
         while (fin == false) {
 
             String array = sc.nextLine();
@@ -101,11 +97,7 @@ public class AceptaElReto124SumaDeDígitos {
 
             }
 
-
-
             int total = 0;
-
-
 
             for (int i = 0; i < numero.length; i++) {
 
@@ -113,15 +105,11 @@ public class AceptaElReto124SumaDeDígitos {
 
             }
 
-
-
             for (int i = 0; i < numero.length; i++) {
 
                 total += numero[i];
 
             }
-
-
 
             for (int i = 0; i < numero.length - 1; i++) {
 
@@ -130,8 +118,6 @@ public class AceptaElReto124SumaDeDígitos {
             }
 
             System.out.print(numero[numero.length - 1] + " = " + total + "\n");
-
-
 
         }
     }
